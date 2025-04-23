@@ -1,0 +1,12 @@
+.home {
+    background-color: #121212;
+}
+
+.refa_dev {
+    width: 300px;
+    margin: 0;
+}
+
+.navlist {
+    display: flex;
+}
