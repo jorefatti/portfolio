@@ -1,12 +1,89 @@
+
 .home {
     background-color: #121212;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
 }
 
 .refa_dev {
-    width: 300px;
-    margin: 0;
+    width: 220px;
+    margin-left: 100px;
 }
 
 .navlist {
     display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.navlist li a:hover {
+    color: rgb(5, 108, 242);
+    transition: color 0.8s ;
+}
+
+.homenav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.aboutmenav{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.skillsnav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.projectsnav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.experiencesnav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.certificatesnav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.blognav {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.download_cv {
+    background-color: rgb(5, 108, 242);
+    margin-right: 100px;
+    height: 40px;
+    width: 100px;
+    border-radius: 6px;
+    border-style: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.download_cv:hover {
+    background-color: blue;
+    transform: scale(1.1) ;
+    transition-duration: 1.5s;
 }
