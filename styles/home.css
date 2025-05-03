@@ -1,89 +1,129 @@
+.home_page a:active {
+    color: white;
+}
 
-.home {
-    background-color: #121212;
-    flex-direction: row;
+.home_page a:visited {
+    color: white;
+}
+
+.home_page {
     display: flex;
-    align-items: center;
-    height: 80px;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 110px;
 }
 
-.refa_dev {
-    width: 220px;
-    margin-left: 100px;
+.home_titles {
+    margin: 0;
 }
 
-.navlist {
-    display: flex;
-    gap: 30px;
-    margin-right: 100px;
-    list-style-type: none;
-    justify-content: center;
+.title {
+    margin-left: 320px;
+    font-size: 55px;
+    margin-bottom: 0;
+    letter-spacing: 2px;
 }
 
-.navlist li a:hover {
+.subtitle {
+    margin-left: 320px;
+    font-size: 35px;
+    margin-top: 0;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+.engineer_span {
     color: rgb(5, 108, 242);
-    transition: color 0.8s ;
 }
 
-.homenav {
-    text-decoration: none;
+.home_icons {
+    margin-left: 320px;
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.linkedin_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
     color: white;
-    letter-spacing: 1px;
-}
-
-.aboutmenav{
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.skillsnav {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.projectsnav {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.experiencesnav {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.certificatesnav {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.blognav {
-    text-decoration: none;
-    color: white;
-    letter-spacing: 1px;
-}
-
-.download_cv {
-    background-color: rgb(5, 108, 242);
-    margin-right: 100px;
-    height: 40px;
-    width: 100px;
-    border-radius: 6px;
     border-style: none;
-    color: white;
-    font-family: "Kanit", sans-serif;
-    font-size: 15px;
-    padding: 6px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.download_cv:hover {
-    background-color: blue;
-    transform: scale(1.1) ;
-    transition-duration: 1.5s;
+.linkedin_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
 }
+
+.github_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.github_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
+}
+
+.instagram_logo {
+    font-size: 30px;
+    background-color: #1d1d1d;
+    color: white;
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instagram_logo:hover {
+    color: rgb(5, 108, 242);
+    background-color: rgb(37, 37, 37);
+    transition: color 0.2s;
+    transform: scale(0.9);
+}
+
+.javalogo {
+    margin-right: 320px;
+    width: 350px;
+    animation: motion 6s ease-in infinite;
+    filter: drop-shadow(0 0 8px hsl(224, 80%, 40%)) drop-shadow(0 0 20px hsl(224, 80%, 40%)) drop-shadow(0 0 40px hsl(224, 80%, 40%))
+}
+
+@keyframes motion {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.05);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Jonathan Refatti</title>
 
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/about_me.css">
     <link rel="stylesheet" href="./styles/blog.css">
     <link rel="stylesheet" href="./styles/experiences.css">
@@ -14,30 +16,181 @@
     <link rel="stylesheet" href="./styles/skills.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=National+Park:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=National+Park:wght@200..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
     <!--Cabeçalho-->
-    <header class="home">
-        <a>
-           <img src="./assets/Refa.dev-removebg-preview.png" alt="Logo Refa.dev" class="refa_dev"> 
-        </a>
-        <ul class="navlist">
-            <li><a class="homenav" href="">Home</a></li>
-            <li><a class="aboutmenav" href="">About me</a></li>
-            <li><a class="skillsnav" href="">Skills</a></li>
-            <li><a class="projectsnav" href="">Projects</a></li>
-            <li><a class="experiencesnav" href="">Experiences</a></li>
-            <li><a class="certificatesnav" href="">Certificates</a></li>
-            <li><a class="blognav" href="">Blog</a></li>
-        </ul> 
-        <a class="buttoncv" href="" download="">
-            <button class="download_cv">
-                Baixar CV
-             </button>
-        </a>
-    </header>
-    
+    <div class="vh">
+        <header class="header">
+            <a href="" target="_self">
+                <img src="./assets/Refa.dev.png" alt="Logo Refa.dev" class="refa_dev">
+            </a>
+            <ul class="navlist">
+                <li><a class="homenav" href="">Home</a></li>
+                <li><a class="aboutmenav" href="">About me</a></li>
+                <li><a class="skillsnav" href="">Skills</a></li>
+                <li><a class="projectsnav" href="">Projects</a></li>
+                <li><a class="experiencesnav" href="">Experiences</a></li>
+                <li><a class="certificatesnav" href="">Certificates</a></li>
+                <li><a class="blognav" href="">Blog</a></li>
+            </ul>
+            <a class="buttoncv" href="" download="">
+                <button class="download_cv">
+                    Baixar CV
+                </button>
+            </a>
+        </header>
+        <section class="home_page">
+            <div class="home_titles">
+                <h1 class="title">Jonathan Refatti</h1>
+                <p class="subtitle">
+                    Software <span class="engineer_span">Engineer</span>
+                </p>
+                <div class="home_icons">
+                    <button class="linkedin_logo">
+                        <a target="_blank" href="https://www.linkedin.com/in/jonathan-refatti-b720a1344/">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </button>
+                    <button class="github_logo">
+                        <a target="_blank" href="https://github.com/jorefatti">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </button>
+                    <button class="instagram_logo">
+                        <a target="_blank" href="https://www.instagram.com/jorefatti/">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <img src="./assets/Java blue icon cópia.png" alt="" class="javalogo">
+        </section>
+    </div>
+    <section class="aboutme_page">
+        <div class="aboutme">
+            <img src="./assets/Myself.jpg" alt="" class="myself">
+            <div class="aboutme_texts">
+                <h1 class="aboutme_title">About <span class="me">Me</span></h1>
+                <p class="aboutme_p">
+                    My name is Jonathan, I'm a fullstack software engineer and computer science student, driven by challenges and fascinated by problem-solving. 
+                    I'm focused, curious and always willing to learn something new. I believe that programming is a way to transform ideas into solutions, which is exactly what I look for in every project I build.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section">
+        <div class="skills-header">
+            <h1>Habilidades</h1>
+            <p>Tecnologias que utilizo ou já utilizei</p>
+        </div>
+        
+        <div class="skills-grid">
+            <!-- HTML5 -->
+            <div class="skill-item">
+                <i class="fab fa-html5 skill-icon html"></i>
+                <span class="skill-name">HTML5</span>
+            </div>
+            
+            <!-- CSS3 -->
+            <div class="skill-item">
+                <i class="fab fa-css3-alt skill-icon css"></i>
+                <span class="skill-name">CSS3</span>
+            </div>
+            
+            <!-- JavaScript -->
+            <div class="skill-item">
+                <i class="fab fa-js skill-icon js"></i>
+                <span class="skill-name">JavaScript</span>
+            </div>
+            
+            <!-- TypeScript -->
+            <div class="skill-item">
+                <i class="fas fa-code skill-icon ts"></i>
+                <span class="skill-name">TypeScript</span>
+            </div>
+            
+            <!-- React -->
+            <div class="skill-item">
+                <i class="fab fa-react skill-icon react"></i>
+                <span class="skill-name">React</span>
+            </div>
+            
+            <!-- NextJS -->
+            <div class="skill-item">
+                <i class="fas fa-arrow-right skill-icon next"></i>
+                <span class="skill-name">NextJS</span>
+            </div>
+            
+            <!-- PHP -->
+            <div class="skill-item">
+                <i class="fab fa-php skill-icon php"></i>
+                <span class="skill-name">PHP</span>
+            </div>
+            
+            <!-- MySQL -->
+            <div class="skill-item">
+                <i class="fas fa-database skill-icon mysql"></i>
+                <span class="skill-name">MySQL</span>
+            </div>
+            
+            <!-- Git -->
+            <div class="skill-item">
+                <i class="fab fa-git-alt skill-icon git"></i>
+                <span class="skill-name">Git</span>
+            </div>
+            
+            <!-- GitHub -->
+            <div class="skill-item">
+                <i class="fab fa-github skill-icon github"></i>
+                <span class="skill-name">GitHub</span>
+            </div>
+            
+            <!-- TailwindCSS -->
+            <div class="skill-item">
+                <i class="fas fa-wind skill-icon tailwind"></i>
+                <span class="skill-name">TailwindCSS</span>
+            </div>
+            
+            <!-- ShadcnUI -->
+            <div class="skill-item">
+                <i class="fas fa-puzzle-piece skill-icon shadcn"></i>
+                <span class="skill-name">ShadcnUI</span>
+            </div>
+            
+            <!-- Axios -->
+            <div class="skill-item">
+                <i class="fas fa-exchange-alt skill-icon axios"></i>
+                <span class="skill-name">Axios</span>
+            </div>
+            
+            <!-- Figma -->
+            <div class="skill-item">
+                <i class="fab fa-figma skill-icon figma"></i>
+                <span class="skill-name">Figma</span>
+            </div>
+            
+            <!-- GIMP -->
+            <div class="skill-item">
+                <i class="fas fa-image skill-icon gimp"></i>
+                <span class="skill-name">GIMP</span>
+            </div>
+            
+            <!-- Photoshop -->
+            <div class="skill-item">
+                <i class="fab fa-adobe skill-icon photoshop"></i>
+                <span class="skill-name">Photoshop</span>
+            </div>
+        </div>
+
+
 </body>
+
 </html>
