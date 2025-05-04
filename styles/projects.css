@@ -7,7 +7,9 @@
 .projects-text {
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
+    font-size: 40px;
+    color: rgba(5, 108, 242, 0.9);
+    letter-spacing: 2px;
 }
 
 .projects-grid {
